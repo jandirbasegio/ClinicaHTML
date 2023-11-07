@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contatos</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .row {
+            margin: 5PX;
+        }
+
+        label {
+            width: 60px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+
+        fieldset {
+
+            margin: 5px;
+            border-radius: 5px;
+            border-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <form  method="get">
+        <div class="wrapper">
+            <div class="menu">
+                <!-- Aqui vai o seu menu -->
+                <ul>
+                    <li><I><strong><a href="home.html">Home</strong></a></I></li>
+                    <li><I><strong><a href="sobreClinica.html">Sobre a Clínica</a></strong><I></li>
+                    <li><I><strong><a href="horarioAtendimento.html">Horário de atendimento e preços</a></strong></I>
+                    </li>
+                    <li><i><strong><a href="contatos.html">Contato</a></strong></i></li>
+                </ul>
+            </div>
+
+            <div class="main">
+                <div class="header">
+
+                    <img src="contatos.jpg">
+                </div>
+                 
+                <h1>Seguem nossos telefones para  contatos:</h1>
+                <h2>WhatsApp:49 99977 - 7777</h2> 
+                <h2>Telefone:49 3566-6666</h2>
+                <h2>Nosso endereço é:R. Prof. Herminio Jacques, 162-250 - Centro, Florianópolis - SC, 88015-180 </h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.0862847672197!2d-48.555798599999996!3d-27.590854399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527381f11267755%3A0xed7f44c4db198483!2sR.%20Prof.%20Herminio%20Jacques%2C%20162%20-%20Centro%2C%20Florian%C3%B3polis%20-%20SC%2C%2088015-180!5e0!3m2!1spt-BR!2sbr!4v1699323342407!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="content" margin: 2PX;>
+
+                    <H1>Precisando falar conosco? Preencha as informações abaixo que entraremos em contato!</H1>
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+
+                        <div class="row">
+                            <label>Nome:</label><input type="text" />
+                            <label>E-Mail:</label><input type="text" />
+                        </div>
+                    </fieldset>
+                    <fieldset>
+
+                        <div class="row">
+                            <label>Assunto:</label><input (textarea) />
+                            <label>Mensagem:</label>
+                            <textarea name="Message"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <div class="row">
+                        <button type="reset">Limpar</button>
+                        <button type="submit"> Enviar formulário </button>
+                    </div>
+                    <br>
+                    <small><a href="home.html">(voltar a Página inicial)</a></small>
+
+                    <div class="footer">
+                        <h1 id=><strong><b><i>Informações de Contatos</i></strong></h1>
+                        <h2><u>WhatsApp:</u> (49) 99999-7777</h2>
+                        <h2><u>Telefone:</u> (49) 99999-7777</h2>
+                        <h2><u>Email:</u> clinicaveterinaria@gmail.com</h2>
+                        <h2><u>Endereço:</u> R. Prof. Herminio Jacques, 162-250 - Centro, Florianópolis - SC, 88015-180
+                        </h2>
+                        <!-- Aqui vai o seu rodapé -->
+
+                    </div>
+                </div>
+            </div>
+    </form>
+</body>
+
+</html>
